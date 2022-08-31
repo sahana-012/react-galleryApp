@@ -77,15 +77,6 @@ const imagesList = [
 
 // Write your code here.
 class Gallery extends Component {
-  //   state = {
-  //     imgUrl: imagesList[0].imageUrl,
-  //     imgAltText: imagesList[0].imageAltText,
-  //   }
-
-  //   onClickItem = (imageUrl, imageAltText) => {
-  //     this.setState({imgUrl: imageUrl, imgAltText: imageAltText})
-  //   }
-
   state = {
     activeThumbnailId: imagesList[0].id,
   }
@@ -97,15 +88,9 @@ class Gallery extends Component {
   }
 
   render() {
-    // const {imgUrl, imgAltText} = this.state
     const {activeThumbnailId} = this.state
     const {imageUrl, imageAltText} = imagesList[activeThumbnailId]
 
-    // const checkList = imagesList.filter(
-    //   eachValue => eachValue.imageUrl === imgUrl,
-    // )
-    // const {id} = checkList[0]
-    // const {id} = selectedImg[0]
     return (
       <div className="app-container">
         <img src={imageUrl} alt={imageAltText} className="image" />
