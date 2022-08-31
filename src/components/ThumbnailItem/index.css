@@ -1,0 +1,23 @@
+/* Write your code here. */
+.thumbnail-item {
+  width: 80px;
+  height: 80px;
+}
+
+.thumbnail-button {
+  width: 60px;
+  height: 60px;
+  border-style: none;
+  background-color: transparent;
+}
+
+.thumbnail-image {
+  width: 60px;
+  border-radius: 5px;
+  height: 47px;
+  padding-right: 0px;
+}
+
+.highlight {
+  opacity: 0.5;
+}

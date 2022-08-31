@@ -1,0 +1,37 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  height: 100vh;
+  font-family: 'Roboto';
+  padding: 40px;
+}
+
+.image {
+  width: 75%;
+  /* height: 75%; */
+  align-self: flex-start;
+}
+
+.main-heading {
+  color: #1e293b;
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.name-tag {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.thumbnail-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0px;
+}
